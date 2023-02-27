@@ -1,0 +1,301 @@
+{
+  "id": "ccab828f-6a6e-4d29-bcba-5b10235e0878",
+  "version": "2.0",
+  "name": "HDL_Login_KMiles",
+  "url": "https://www.hudl.com",
+  "tests": [{
+    "id": "a80d6780-7d9f-4c79-8a87-063f5162cb2c",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "2b974738-2c00-4927-b14e-b6f7fff190fe",
+    "name": "TC001_004_SiteLogin",
+    "commands": [{
+      "id": "8db94132-863c-438f-9655-26cd023acf92",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.hudl.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57f57e99-ba83-45f8-ae3d-6345aa34b967",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1418x956",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c8eca54-8805-4384-bb67-c8ac47912bc1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.mainnav__btn:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//header/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afc2de49-f373-417c-b8bd-6b64295c79aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "m.kendrick.miles@gmail"
+    }, {
+      "id": "b216c081-999d-46fd-94fa-5f3e2eab46d5",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Squill1914"
+    }, {
+      "id": "6ee61e20-c8e2-47b7-8b5c-272527ad275f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4fcd4626-1da9-4a11-afe8-ef997668cd7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styles_pageContainer_31NnIgZuiQzDKnKlPaGLsi",
+      "targets": [
+        ["css=.styles_pageContainer_31NnIgZuiQzDKnKlPaGLsi", "css:finder"],
+        ["xpath=//div[@id='app']/section/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fde16dd9-dc8b-4dc4-984e-bb43f4b92233",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styles_backIcon_1nBYGKhbTIbTmIULDJg1MZ",
+      "targets": [
+        ["css=.styles_backIcon_1nBYGKhbTIbTmIULDJg1MZ", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9fd8298-c003-45ce-b550-a1fa38b38fdb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.mainnav__btn:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//header/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62a78fe6-b3f8-418a-94b4-bd2fd2f94b0c",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "m.kendrick.miles@gmail.com"
+    }, {
+      "id": "29aa157d-fd4f-4201-9086-5c34db25fdb6",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "mkm1914"
+    }, {
+      "id": "885f3466-5985-4568-abc0-5695bbc8cf0a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "581b6304-3dd5-4291-8a5d-2cb16f52fc98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styles_backIcon_1nBYGKhbTIbTmIULDJg1MZ",
+      "targets": [
+        ["css=.styles_backIcon_1nBYGKhbTIbTmIULDJg1MZ", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8e6c905-7cf9-48aa-91d4-843cba9c82a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.mainnav__btn:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//header/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72f803a6-bb57-427d-a41b-9502243e8e2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "m.kendrick.miles@gmail"
+    }, {
+      "id": "afa1e8b4-96a3-4af3-bce1-978af06d0303",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "mkm1914"
+    }, {
+      "id": "ea52570e-2e22-4cfb-a6b9-c201d1ee8131",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "27a7f8b9-f97e-4c20-b21c-a4c21d8b99bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styles_backIcon_1nBYGKhbTIbTmIULDJg1MZ",
+      "targets": [
+        ["css=.styles_backIcon_1nBYGKhbTIbTmIULDJg1MZ", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3767e7ad-7eed-4a8f-bcf2-fa6387dfefe5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log in",
+      "targets": [
+        ["linkText=Log in", "linkText"],
+        ["css=.mainnav__btn:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Log in')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
+        ["xpath=//header/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63ed6d8c-eaa8-4ced-ae91-a3061a9a5448",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "m.kendrick.miles@gmail.com"
+    }, {
+      "id": "ca8f2cc4-e4ed-4412-bc89-88ab8f059133",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Squill1914"
+    }, {
+      "id": "1cce14ff-426f-4575-9d3c-8839a5cbb8e5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/section/div[2]/div/form/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "6704734d-9945-4509-9e3f-f1b92c3fb365",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a80d6780-7d9f-4c79-8a87-063f5162cb2c"]
+  }],
+  "urls": ["http://www.hudl.com/"],
+  "plugins": []
+}
